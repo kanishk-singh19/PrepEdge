@@ -53,6 +53,8 @@ interface AgentProps {
   interviewId?: string;
   feedbackId?: string;
   type: "generate" | "interview";
+    profileImage: string;
+     profileURL: string; 
   questions?: string[];
 }
 
